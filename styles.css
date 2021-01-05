@@ -114,7 +114,9 @@ body {
     line-height: 1.5;
     font-family: 'Poppins', sans-serif;
 }
-html, body{
+
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -278,7 +280,7 @@ p {
     padding-top: 200px;
     text-transform: uppercase;
     color: rgba(245, 102, 102, 0.979);
-   
+
 }
 
 .hero h1 {
@@ -288,7 +290,7 @@ p {
     font-weight: 900;
     width: 60%;
     line-height: 1.2;
-    
+
 
 }
 
@@ -301,151 +303,165 @@ p {
 
 /* styling the team section======================== */
 
-.team{
-    background-color:#F6F9FE;
+.team {
+    background-color: #F6F9FE;
     padding: 120px 0;
 }
 
-.team .col-1{
+.team .col-1 {
     flex-basis: 30%;
-   
+
 
 }
 
 
-.team  .col-1 h3{
+.team .col-1 h3 {
     font-weight: bold;
     font-size: 24px;
     padding: 10px 0;
     text-transform: capitalize;
 }
 
-.team .col-1 p{
+.team .col-1 p {
     font-weight: bold;
     font-size: 12px;
     line-height: 1.8;
     color: grey;
 }
-.team .col-1 img{
+
+.team .col-1 img {
     width: 300px;
 
 }
 
-.team .col-3{
+.team .col-3 {
     flex-basis: 30%;
     border: 4px solid red;
-    padding:34px 20px ;
+    padding: 34px 20px;
     align-items: flex-start;
     background-color: white;
-   
+
 
 }
-.team .col-3 h2{
+
+.team .col-3 h2 {
     font-weight: bold;
     font-size: 32px;
     text-transform: capitalize;
 }
 
-.team .col-3 hr{
-    width: 30px ;
+.team .col-3 hr {
+    width: 30px;
     border: none;
     border-top: 4px solid red;
     margin: 10px 0;
 }
-.team .col-3 p{
+
+.team .col-3 p {
     font-weight: 500;
     font-size: 12px;
     color: rgb(88, 88, 88);
     line-height: 1.8;
     padding: 10px 0;
 }
-.team .col-3 .fa{
+
+.team .col-3 .fa {
     margin-left: 10px;
 }
-#view-profile{
+
+#view-profile {
     font-size: 14px;
     color: black;
 }
 
 /* styling work section ================================*/
 
-.work{
+.work {
     padding: 100px 0;
 }
-.work img{
+
+.work img {
     width: 530px;
 }
-.work .sub-container{
+
+.work .sub-container {
     position: relative;
-} 
+}
 
 
-.work-content{
+.work-content {
     padding: 40px 30px;
-    background-image: linear-gradient(to right, rgba(255,255,255,0.6),rgba(255,255,255,0.6));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));
     width: 450px;
-    left:450px;
-    top:100px;
+    left: 450px;
+    top: 100px;
     position: absolute;
 }
 
-.work-content h2{
+.work-content h2 {
     font-weight: 800;
     line-height: 1.2;
     padding: 10px 0;
 
 }
-.work-content p{
+
+.work-content p {
     line-height: 1.8;
     color: rgb(93, 92, 92);
     font-size: 14px;
     padding: 20px 0;
 }
+
 .work-content .btn-primary {
-    margin:20px 0;
+    margin: 20px 0;
 
 }
 
 /* styling services section ================================================= */
 
 
-.services{
-    padding:50px 0;
+.services {
+    padding: 50px 0;
 }
 
-.services .sub-container{
+.services .sub-container {
     align-items: center;
 }
 
-.services h1{
+.services h1 {
     text-transform: capitalize;
     padding-bottom: 40px;
-    
+
 }
-.services img{
+
+.services img {
     width: 50px;
 }
-.services .col-1{
-    padding:50px 30px;
+
+.services .col-1 {
+    padding: 50px 30px;
     text-align: center;
     flex-basis: 31%;
     align-items: center;
     background-color: rgba(252, 252, 255, 1);
 }
-.services h3{
-  text-transform: capitalize;
-  font-weight: 700;
-  font-size: 20px;
+
+.services h3 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 20px;
 }
-.services p{
-   font-weight: 600;
-   color: lightslategray;
-   text-align: left;
-   padding: 20px 0;
-   width: 65%;
-   margin: 0 auto;
+
+.services p {
+    font-weight: 600;
+    color: lightslategray;
+    text-align: left;
+    padding: 20px 0;
+    width: 65%;
+    margin: 0 auto;
 }
-.btn-secondary{
+
+.btn-secondary {
     background-color: white;
     border: 2px solid red;
     color: red;
@@ -456,43 +472,272 @@ p {
 
 /* styling cases section  ============================================ */
 
-.cases{
-    padding:200px 0;
+.cases {
+    padding: 200px 0;
     background-color: rgba(250, 250, 255, 1);
 }
-.cases .col-1{
+
+.cases .col-1 {
     width: 500px;
-    padding: 30px ;
-    
+    padding: 30px;
+
 }
-.cases .sub-container{
+
+.cases .sub-container {
     position: relative;
 }
-.cases .col-2{
+
+.cases .col-2 {
     position: absolute;
-  align-items: flex-end;
+    align-items: flex-end;
     flex-basis: 50%;
-  left: 600px;
+    left: 510px;
 }
 
-.col-2 img{
-    width: 300px;
+.col-2 img {
+    width: 310px;
+    margin-top: 0;
+    margin-left: 20px;
 }
-.cases .btn{
-    background-color: rgba(250, 250, 255, 1); 
+
+.cases .btn {
+    background-color: rgba(250, 250, 255, 1);
     margin-top: 10px;
-    padding:13px 35px;
+    padding: 13px 35px;
 }
 
-.cases h2{
+.cases h2 {
     font-weight: 800;
     text-transform: capitalize;
 }
 
-.cases p{
+.cases p {
     font-size: 12px;
     font-weight: 600;
     line-height: 1.8;
-    color:lightslategray;
-    padding:20px 0;
+    color: lightslategray;
+    padding: 20px 0;
+}
+
+/* styling testimonials section =============================================== */
+
+.testimonials {
+    padding: 80px 0;
+}
+
+.testimonial-1 {
+    align-items: center;
+    padding: 20px 180px;
+}
+
+.testimonials h3 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.stars {
+    padding: 20px 0;
+    color: #F8B135;
+}
+
+.testimonials .name {
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: black;
+
+}
+
+.testimonials p {
+    font-size: 13px;
+    color: grey;
+    text-transform: capitalize;
+}
+
+.testimonials img {
+    margin-bottom: 20px;
+}
+
+.testimonials .arrow {
+    color: rgb(175, 173, 173);
+}
+
+/* styling news section =============================================*/
+
+.news {
+    padding: 80px 0;
+}
+
+.news img {
+    width: 300px;
+}
+
+.news .col-1 {
+    flex-basis: 32%;
+    padding: 10px;
+    align-items: flex-start;
+}
+
+
+.news .sub-heading {
+    color: red;
+    padding: 20px 0;
+    margin: 0;
+    margin-left: 15px;
+}
+
+.news h3 {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.news p {
+    margin: 0;
+    margin-left: 15px;
+    color: rgb(174, 185, 197);
+}
+
+
+/* styling form section  =============================================== */
+
+.form {
+    padding: 80px 0;
+    background-color: #012D5B;
+
+}
+
+.form .sub-container {
+    align-items: flex-start;
+
+}
+
+.form .col-1 {
+    flex-basis: 35%;
+    padding: 20px;
+}
+
+.form .col-2 {
+    flex-basis: 55%;
+    align-items: stretch;
+    padding: 20px 20px;
+    justify-content: stretch;
+
+
+}
+
+.col-2 .inputs {
+    justify-content: space-between;
+}
+
+.form h2 {
+    color: white;
+    font-weight: 700;
+}
+
+.form p {
+    color: white;
+    padding: 30px 0;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.form input {
+    padding: 10px 30px;
+
+    margin-bottom: 20px;
+    border: 2px solid #265f9c;
+    border-radius: 5px;
+    background-color: #012D5B;
+}
+
+.form select {
+    padding: 10px 30px;
+    flex-grow: 3;
+    color: rgb(184, 183, 183);
+    border: 2px solid #265f9c;
+    border-radius: 5px;
+    background-color: #012D5B;
+}
+
+.form input::placeholder {
+    color: white;
+}
+
+.form .btn {
+    flex-grow: 1;
+    padding: 12px 35px;
+    margin-left: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+/* styling footer -------------------------------------------------------------------*/
+
+.footer {
+    padding: 80px 0 40px 0;
+    background-color: #F8FAFE;
+}
+
+.footer img {
+    width: 130px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.footer-social .fa {
+    margin-right: 10px;
+}
+
+.footer h3 {
+    text-transform: capitalize;
+    color: #012D5B;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 14px;
+    color: rgb(133, 133, 134);
+    padding-bottom: 20px;
+    line-height: 1.8;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(133, 133, 134);
+    text-transform: capitalize;
+}
+
+.footer .col-1 {
+    flex-basis: 25%;
+}
+
+.footer .footer-contact {
+    align-items: flex-start
+}
+
+.footer hr {
+    border: none;
+    border-top: 1px solid rgb(148, 153, 158);
+    margin-top: 120px;
+}
+
+.footer-copyright .flex-r {
+    justify-content: center;
+    padding: 30px 0;
+    font-size: 14px;
+    color: rgb(148, 153, 158);
+}
+
+.footer-copyright .fa {
+    color: red;
+    margin: 0 5px;
+}
+
+#colorlib {
+    margin: 0 5px;
+    color: red;
 }
