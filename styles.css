@@ -227,6 +227,8 @@ p {
 
 .nav-bar {
     padding: 20px 0;
+    background-color: #F8FAFE;
+
 }
 
 .brand-icon img {
@@ -881,4 +883,53 @@ textarea::placeholder {
 .hero-services {
     background-size: cover;
     background-image: url(assets/hero/services_hero.jpg), linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.1));
+}
+
+/* styling cases page ========================================================*/
+
+
+.hero-cases {
+    background-size: cover;
+    background-image: url(assets/hero/cases_hero.jpg), linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.1));
+}
+
+.completed-cases {
+    padding: 80px 0;
+    background-color: #F8FAFE;
+}
+
+.completed-cases .card-container {
+    flex-wrap: wrap;
+}
+
+.completed-cases .card {
+    flex: 25%;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.completed-cases .card img {
+    width: 300px;
+}
+
+.completed-cases .card .image-text {
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+    left: 0;
+    width: 250px;
+    background-color: white;
+}
+
+.completed-cases .card h3 {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.completed-cases .card p {
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 600;
+    color: lightslategrey;
 }
