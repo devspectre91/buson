@@ -741,3 +741,23 @@ p {
     margin: 0 5px;
     color: red;
 }
+
+
+/* styling about page ==================================*/
+
+.hero-about {
+    background-size: cover;
+    background-image: url(assets/hero/about_hero.jpg), linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.1));
+}
+
+.hero-about .sub-container {
+    align-items: center;
+    padding: 70px 0;
+}
+
+.hero-about h1 {
+    color: white;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 42px;
+}
