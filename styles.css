@@ -933,3 +933,294 @@ textarea::placeholder {
     font-weight: 600;
     color: lightslategrey;
 }
+
+
+
+/* styling blog page========================================================================= */
+
+.hero-blog {
+
+    background-size: cover;
+    background-image: url(assets/hero/blog_hero.jpg), linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.1));
+
+}
+
+.our-blog .sub-container {
+    padding: 100px 0;
+    align-items: flex-start;
+}
+
+.our-blog .col-1 {
+    flex-basis: 65%;
+}
+
+
+.blog-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 40px;
+}
+
+.blog-card .flex-r {
+    justify-content: flex-start;
+}
+
+.blog-card img {
+    width: 100%;
+}
+
+.image-container {
+    position: relative;
+}
+
+.blog-card .btn {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    padding: 15px 25px;
+
+
+}
+
+.blog-card .card-date {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+}
+
+.blog-card .card-month {
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+
+}
+
+.blog-card h3 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.blog-card .text-container p {
+    font-weight: 600;
+    color: lightslategrey;
+    padding: 10px 0;
+    line-height: 2;
+}
+
+.card-footer {
+    padding: 20px 0 5px 0;
+}
+
+.blog-card .card-footer p {
+    color: rgb(179, 178, 178);
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.card-footer .fa {
+    color: rgb(163, 167, 172);
+    margin-right: 10px;
+}
+
+.card-footer .fa-comments {
+    margin-left: 10px;
+}
+
+.text-container {
+    padding: 10px 40px;
+}
+
+.card-navigation {
+    padding-top: 50px;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.card-navigation div {
+    color: lightslategrey;
+    margin-right: 10px;
+    padding: 8px 16px;
+    border: 1px solid rgb(218, 220, 223);
+    font-size: 12px;
+}
+
+.active-box {
+    background-color: rgb(234, 237, 253);
+}
+
+
+/* styling col-2 of blog page */
+
+.our-blog .col-2 {
+    flex-basis: 30%;
+    align-items: stretch;
+    justify-content: flex-start;
+
+
+
+}
+
+.search-box {
+    background-color: #FBF9FF;
+    padding: 30px 30px;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+.search-box input {
+
+    padding: 10px 25px;
+    border: 1px solid rgb(208, 211, 216);
+}
+
+.search-box input::placeholder {
+    text-transform: capitalize;
+    font-size: 12px;
+    color: rgb(174, 185, 197);
+    font-weight: 600;
+
+
+}
+
+.search-box .btn {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 15px;
+    padding: 15px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.lens {
+    padding: 7px 9px;
+    color: white;
+    font-weight: normal;
+    background-color: rgba(245, 102, 102, 0.979);
+}
+
+/* category styling ==============================================*/
+.category {
+    padding: 20px;
+    background-color: #FBF9FF;
+    margin-bottom: 30px;
+    align-items: stretch;
+}
+
+.category .heading {
+    margin-bottom: 30px;
+}
+
+.category .last-item {
+    border: none;
+}
+
+.category h3 {
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+
+.category p {
+    font-size: 13px;
+    color: lightslategrey;
+    font-weight: 500;
+
+}
+
+.category div {
+    border-bottom: 1px solid rgb(221, 222, 226);
+    padding: 10px 0;
+}
+
+
+/* styling recent pages============================================= */
+
+.our-blog .recent-image img {
+    width: 70px;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.recent-post {
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #FBF9FF;
+
+}
+
+.recent-post h3 {
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+}
+
+.recent-post hr {
+    border: none;
+    margin-bottom: 30px;
+    width: 100%;
+    border-top: 1px solid rgb(221, 222, 226);
+}
+
+
+.recent-post h5 {
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.recent-post p {
+    color: lightslategrey;
+    font-weight: 700;
+}
+
+/* styling tag clouds ================================= */
+
+
+
+.tag-clouds .tags {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+
+.tag-clouds .tags p {
+    font-size: 10px;
+
+    font-weight: 700;
+    color: rgb(164, 165, 168);
+    border: 1px solid rgb(219, 220, 223);
+    flex-basis: 31%;
+    padding: 2px 0;
+    border-radius: 2px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-right: 2px;
+    background-color: white;
+
+}
+
+
+
+/* styling instagram feeds================================== */
+
+.instagram-feeds .feeds {
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.instagram-feeds .feeds img {
+    width: 40px;
+    margin: 0;
+    flex-basis: 31%;
+    margin-bottom: 10px;
+}
+
+
+/* styling newsletter section================================= */
